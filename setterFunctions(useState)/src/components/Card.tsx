@@ -1,6 +1,6 @@
 
 type CardProps = {
-    setCount: 
+    setCount: React.Dispatch<React.SetStateAction<number>>
 }
 export default function Card({setCount}: CardProps) {
   return (
