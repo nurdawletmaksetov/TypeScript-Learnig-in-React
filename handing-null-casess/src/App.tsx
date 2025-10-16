@@ -11,9 +11,9 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setUser({name: "Nurdawlet", age: 16})
+    setUser({name: "Beka", age: 16})
     setLoading(false)
-  }, [])
+  }, []) 
 
   return (
     <>
